@@ -314,8 +314,8 @@ PRODUCT_PACKAGES += \
     orms_core_config
 
 # OplusDoze
-PRODUCT_PACKAGES += \
-    OplusDoze
+#PRODUCT_PACKAGES += \
+#    OplusDoze
 
 # AODHelper
 PRODUCT_PACKAGES += \
