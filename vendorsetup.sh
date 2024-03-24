@@ -27,7 +27,7 @@ PARTS=packages/apps/OneplusParts/parts.mk
 if ! [ -a $PARTS ]; then git clone https://github.com/nattolecats/android_packages_apps_OneplusParts packages/apps/OneplusParts
 fi
 POCKET=packages/apps/PocketMode/pocket_mode.mk
-if ! [ -a $POCKET ]; then git clone https://github.com/nishant6342/packages_apps_PocketMode packages/apps/PocketMode
+if ! [ -a $POCKET ]; then git clone https://github.com/nattolecats/android_packages_apps_PocketMode packages/apps/PocketMode
 fi
 FW=vendor/oneplus/denniz-firmware/Android.mk
 if ! [ -a $FW ]; then git clone https://gitlab.com/nattolecats/android_vendor_oneplus_denniz-firmware vendor/oneplus/denniz-firmware
